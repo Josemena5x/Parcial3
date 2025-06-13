@@ -1,0 +1,41 @@
+.video-api-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.video-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+video, #photo-preview {
+  width: 500px;
+  border: 3px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.controls button,
+#download-link {
+  margin: 10px 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: #1e88e5;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.controls button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.controls button:hover:not(:disabled),
+#download-link:hover {
+  background-color: #1565c0;
+}
