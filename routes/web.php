@@ -59,3 +59,6 @@ Route::get('/admin/dashboard', [DashboardController::class,'vistaDashboard'])->n
 
 // SOLO PARA HACER LA PARTE 2
 Route::get('/apis', function () { return view('apis'); })->name('apis');
+
+// SOLO PARA HACER LA PARTE 4
+Route::get('/workers', function () { return view('workers'); })->name('workers');
