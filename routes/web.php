@@ -57,4 +57,5 @@ Route::get('sin-permisos', [ControlController::class,'indexSinPermiso'])->name('
 
 Route::get('/admin/dashboard', [DashboardController::class,'vistaDashboard'])->name('admin.dashboard.index');
 
-
+// SOLO PARA HACER LA PARTE 2
+Route::get('/apis', function () { return view('apis'); })->name('apis');

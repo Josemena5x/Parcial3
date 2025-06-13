@@ -37,6 +37,14 @@
                             </a>
                         </li>
 
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('apis') }}">
+                                <i class="fas fa-globe-americas"></i>
+                                <span>APIs</span>
+                            </a>
+                        </li>
+
+
                     </ul>
                  </li>
                 @endcan
