@@ -18,51 +18,8 @@
     <link href="{{ asset('css/sweetalert2.min.css') }}" rel="stylesheet">
 
     <link href="{{ asset('css/buttons_estilo.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
 
-
-    <style>
-        html, body {
-            height: 100%;
-        }
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-image: url({{ asset('images/fondo3.jpg') }});
-        }
-
-        .demo-container {
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .btn-lg {
-            padding: 12px 26px;
-            font-size: 14px;
-            font-weight: 700;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-        }
-        ::placeholder {
-            font-size:14px;
-            letter-spacing:0.5px;
-        }
-
-        .form-control-lg {
-            font-size: 16px;
-            padding: 25px 20px;
-        }
-        .font-500{
-            font-weight:500;
-        }
-        .image-size-small{
-            width:200px;
-            margin:0 auto;
-        }
-        .image-size-small img{
-            width:200px;
-            margin-bottom:-70px;
-        }
-    </style>
 </head>
 
 <body>

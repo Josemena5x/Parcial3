@@ -37,20 +37,23 @@
                             </a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('apis') }}">
-                                <i class="fas fa-globe-americas"></i>
-                                <span>APIs</span>
-                            </a>
-                        </li>
-
-
                     </ul>
                  </li>
                 @endcan
 
+                <li class="nav-item">
+                    <a href="{{ url('admin/dashboard/apis') }}" target="frameprincipal" class="nav-link">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>API Geolocalización</p>
+                    </a>
+                </li>
 
-
+                <li class="nav-item">
+                    <a href="{{ url('admin/dashboard/workers') }}" target="frameprincipal" class="nav-link">
+                        <i class="fas fa-cogs"></i>
+                        <p>Web Workers</p>
+                    </a>
+                </li>
 
             </ul>
         </nav>

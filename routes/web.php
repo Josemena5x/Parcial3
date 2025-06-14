@@ -56,9 +56,9 @@ Route::post('/admin/editar-perfil/actualizar', [PerfilController::class, 'editar
 Route::get('sin-permisos', [ControlController::class,'indexSinPermiso'])->name('no.permisos.index');
 
 Route::get('/admin/dashboard', [DashboardController::class,'vistaDashboard'])->name('admin.dashboard.index');
+Route::get('/admin/dashboard/apis', [DashboardController::class,'vistaApis'])->name('admin.dashboard.apis');
+Route::get('/admin/dashboard/workers', function() {
+    return view('backend.admin.dashboard.workers');
+})->name('admin.dashboard.workers');
 
-// SOLO PARA HACER LA PARTE 1 AL 3
-Route::get('/apis', function () { return view('apis'); })->name('apis');
 
-// SOLO PARA HACER LA PARTE 4
-Route::get('/workers', function () { return view('workers'); })->name('workers');

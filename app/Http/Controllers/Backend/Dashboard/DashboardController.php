@@ -11,4 +11,9 @@ class DashboardController extends Controller
    { 
        return view('backend.admin.dashboard.vistadashboard');
    }   
+
+   public function vistaApis()
+   {
+       return view('backend.admin.dashboard.apis');
+   }
 }
